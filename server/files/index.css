@@ -8,20 +8,43 @@ body {
 }
 
 article {
-  background-color: rgba(211, 211, 211, 0.9);
-  border-radius: 16px;
-  padding: 16px;
-  width: 384px;
-  margin: 8px;
+  background-color: rgba(211, 211, 211, 0.95);
+  border-radius: 12px;
+  padding: 14px;
+  width: 290px;
+  margin: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  font-size: 0.9em;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+article h1 {
+  font-size: 1.5em;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+article h2 {
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 2px;
 }
 
 article button {
-  margin: 0px 2px;
+  margin: 0px 4px 8px 0px;
+  cursor: pointer;
 }
 
 main {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 header {
@@ -40,5 +63,39 @@ span {
   border: solid black 1px;
   border-radius: 6px;
   background-color: darkgray;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+/* --- Multi-Select Filter Styles --- */
+#filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: center;
+}
+
+#filter li {
+  margin: 0;
+}
+
+#filter button {
+  background-color: #555; /* Inaktiv (Grau) */
+  color: #ccc;
+  border: 1px solid #333;
+  transition: all 0.2s ease;
+}
+
+#filter button:hover {
+  background-color: #777;
+}
+
+/* Aktiver (ausgewählter) Filter */
+#filter button.active {
+  background-color: beige; /* Hell und aktiv */
+  color: #333;
+  border: 1px solid #fff;
   font-weight: bold;
 }

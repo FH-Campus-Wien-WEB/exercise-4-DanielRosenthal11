@@ -14,7 +14,7 @@ export class ElementBuilder {
   }
 
   pluralizedText(content, array) {
-    return this.text(array.length > 1 ? content + "s" : content);
+    return this.text(array && array.length > 1 ? content + "s" : content);
   }
 
   text(content) {
@@ -119,6 +119,14 @@ export class MovieBuilder extends ElementBuilder {
           "Runtime " + formatRuntime(movie.Runtime),
           "\u2022",
           "Released on " + new Date(movie.Released).toLocaleDateString("en-US")
+        )
+      )
+      // Neu: Ratings (IMDb und Metascore)
+      .append(
+        new ParagraphBuilder().items(
+          "⭐ IMDb: " + (movie.imdbRating || "N/A"),
+          "\u2022",
+          "Ⓜ️ Metascore: " + (movie.Metascore || "N/A")
         )
       )
       .append(new ParagraphBuilder().childClass("genre").items(movie.Genres))

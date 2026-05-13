@@ -65,10 +65,15 @@ app.get("/session", function (req, res) {
 app.get("/movies", requireLogin, function (req, res) {
   const username = req.session.user.username;
   let movies = Object.values(movieModel.getUserMovies(username));
-  const queriedGenre = req.query.genre;
-  if (queriedGenre) {
-    movies = movies.filter((movie) => movie.Genres.indexOf(queriedGenre) >= 0);
+  const queriedGenres = req.query.genres;
+
+  if (queriedGenres) {
+    const genresArray = queriedGenres.split(',');
+    movies = movies.filter((movie) => {
+      return genresArray.some(selectedGenre => movie.Genres.indexOf(selectedGenre) >= 0);
+    });
   }
+  
   res.send(movies);
 });
 

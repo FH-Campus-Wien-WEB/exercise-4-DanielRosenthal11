@@ -194,6 +194,847 @@
       "Poster": "https://m.media-amazon.com/images/M/MV5BYzU3ZjE3M2UtM2E4Ni00MDI5LTkyZGUtOTFkMGIyYjNjZGU3XkEyXkFqcGc@._V1_SX300.jpg",
       "Metascore": 29,
       "imdbRating": 3.8
+    },
+    "tt0096895": {
+      "imdbID": "tt0096895",
+      "Title": "Batman",
+      "Released": "1989-06-22",
+      "Runtime": 126,
+      "Genres": [
+        "Action",
+        "Adventure"
+      ],
+      "Directors": [
+        "Tim Burton"
+      ],
+      "Writers": [
+        "Bob Kane",
+        "Sam Hamm",
+        "Warren Skaaren"
+      ],
+      "Actors": [
+        "Michael Keaton",
+        "Jack Nicholson",
+        "Kim Basinger"
+      ],
+      "Plot": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzZmZWViM2EtNzhlMi00NzBlLWE0MWEtZDFjMjk3YjIyNTBhXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 69,
+      "imdbRating": 7.5
+    },
+    "tt0103359": {
+      "imdbID": "tt0103359",
+      "Title": "Batman: The Animated Series",
+      "Released": "1992-09-04",
+      "Runtime": 23,
+      "Genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "Directors": [
+        "N/A"
+      ],
+      "Writers": [
+        "Bill Finger",
+        "Bob Kane",
+        "Eric Radomski"
+      ],
+      "Actors": [
+        "Kevin Conroy",
+        "Loren Lester",
+        "Efrem Zimbalist Jr."
+      ],
+      "Plot": "Billionaire Bruce Wayne secretly operates as Batman, a vigilante who battles a rouges' gallery of criminals and supervillains in Gotham City with the aid of various sidekicks and allies.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjgwZWUzMzUtYTFkNi00MzM0LWFkMWUtMDViMjMxNGIxNDUxXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 0,
+      "imdbRating": 9
+    },
+    "tt0316654": {
+      "imdbID": "tt0316654",
+      "Title": "Spider-Man 2",
+      "Released": "2004-06-29",
+      "Runtime": 127,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "Directors": [
+        "Sam Raimi"
+      ],
+      "Writers": [
+        "Stan Lee",
+        "Steve Ditko",
+        "Alfred Gough"
+      ],
+      "Actors": [
+        "Tobey Maguire",
+        "Kirsten Dunst",
+        "Alfred Molina"
+      ],
+      "Plot": "Peter Parker is beset with troubles in his failing personal life as he battles a former brilliant scientist named Otto Octavius.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGQ0YTQyYTgtNWI2YS00NTE2LWJmNDItNTFlMTUwNmFlZTM0XkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 83,
+      "imdbRating": 7.5
+    },
+    "tt9362722": {
+      "imdbID": "tt9362722",
+      "Title": "Spider-Man: Across the Spider-Verse",
+      "Released": "2023-06-01",
+      "Runtime": 140,
+      "Genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "Directors": [
+        "Joaquim Dos Santos",
+        "Kemp Powers",
+        "Justin K. Thompson"
+      ],
+      "Writers": [
+        "Phil Lord",
+        "Christopher Miller",
+        "Dave Callaham"
+      ],
+      "Actors": [
+        "Shameik Moore",
+        "Hailee Steinfeld",
+        "Brian Tyree Henry"
+      ],
+      "Plot": "Traveling across the multiverse, Miles Morales meets a new team of Spider-People, made up of heroes from different dimensions. But when the heroes clash over how to deal with a new threat, Miles finds himself at a crossroads.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNThiZjA3MjItZGY5Ni00ZmJhLWEwN2EtOTBlYTA4Y2E0M2ZmXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 86,
+      "imdbRating": 8.5
+    },
+    "tt1872181": {
+      "imdbID": "tt1872181",
+      "Title": "The Amazing Spider-Man 2",
+      "Released": "2014-05-01",
+      "Runtime": 142,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "Directors": [
+        "Marc Webb"
+      ],
+      "Writers": [
+        "Alex Kurtzman",
+        "Roberto Orci",
+        "Jeff Pinkner"
+      ],
+      "Actors": [
+        "Andrew Garfield",
+        "Emma Stone",
+        "Jamie Foxx"
+      ],
+      "Plot": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTA5NDYxNTg0OV5BMl5BanBnXkFtZTgwODE5NzU1MTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Metascore": 53,
+      "imdbRating": 6.6
+    },
+    "tt6320628": {
+      "imdbID": "tt6320628",
+      "Title": "Spider-Man: Far from Home",
+      "Released": "2019-07-01",
+      "Runtime": 129,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "Directors": [
+        "Jon Watts"
+      ],
+      "Writers": [
+        "Chris McKenna",
+        "Erik Sommers",
+        "Stan Lee"
+      ],
+      "Actors": [
+        "Tom Holland",
+        "Samuel L. Jackson",
+        "Jake Gyllenhaal"
+      ],
+      "Plot": "Peter Parker, the beloved superhero Spider-Man, faces four destructive elemental monsters while on holiday in Europe. Soon, he receives help from Mysterio, a fellow hero with mysterious origins.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzNhNTE0NWQtN2E1Ny00NjcwLTg1YTctMGY1NmMwODJmY2NmXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+      "Metascore": 69,
+      "imdbRating": 7.3
+    },
+    "tt0441773": {
+      "imdbID": "tt0441773",
+      "Title": "Kung Fu 123",
+      "Released": "2008-06-05",
+      "Runtime": 92,
+      "Plot": "To everyone's surprise, including his own, Po, an overweight, clumsy panda, is chosen as protector of the Valley of Peace. His suitability will soon be tested as the valley's arch-enemy is on his way.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDU5MDNiMGItYjVmZi00NDUxLTg2OTktNGE0NzNlNzM4NzgyXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 74,
+      "imdbRating": 7.6,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Animation"
+      ],
+      "Directors": [
+        "Mark Osborne",
+        "John Stevenson"
+      ],
+      "Writers": [
+        "Jonathan Aibel",
+        "Glenn Berger",
+        "Ethan Reiff"
+      ],
+      "Actors": [
+        "Jack Black",
+        "Ian McShane",
+        "Angelina Jolie"
+      ]
+    },
+    "tt1302011": {
+      "imdbID": "tt1302011",
+      "Title": "Kung Fu Panda 2",
+      "Released": "2011-05-25",
+      "Runtime": 90,
+      "Genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "Directors": [
+        "Jennifer Yuh Nelson"
+      ],
+      "Writers": [
+        "Jonathan Aibel",
+        "Glenn Berger",
+        "Ethan Reiff"
+      ],
+      "Actors": [
+        "Jack Black",
+        "Angelina Jolie",
+        "Jackie Chan"
+      ],
+      "Plot": "Po and his friends fight to stop a peacock villain from conquering China with a deadly new weapon, but first the Dragon Warrior must come to terms with his past.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYmIxMGYzMTUtZDQzYy00ODc4LWE1YzQtZGMwYTc0YTYyYTE0XkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 67,
+      "imdbRating": 7.3
+    },
+    "tt2267968": {
+      "imdbID": "tt2267968",
+      "Title": "Kung Fu Panda 3",
+      "Released": "2016-01-28",
+      "Runtime": 95,
+      "Genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "Directors": [
+        "Alessandro Carloni",
+        "Jennifer Yuh Nelson"
+      ],
+      "Writers": [
+        "Jonathan Aibel",
+        "Glenn Berger",
+        "Ethan Reiff"
+      ],
+      "Actors": [
+        "Jack Black",
+        "Bryan Cranston",
+        "Dustin Hoffman"
+      ],
+      "Plot": "Continuing his \"legendary adventures of awesomeness\", Po must face two hugely epic, but different threats: one supernatural and the other a little closer to home.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzgxNjg2M15BMl5BanBnXkFtZTgwMTY1NDI1NjE@._V1_SX300.jpg",
+      "Metascore": 66,
+      "imdbRating": 7.1
+    }
+  },
+  "SuperDaniel": {
+    "tt10872600": {
+      "imdbID": "tt10872600",
+      "Title": "Spider-Man: No Way Home",
+      "Released": "2021-12-16",
+      "Runtime": 148,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "Directors": [
+        "Jon Watts"
+      ],
+      "Writers": [
+        "Chris McKenna",
+        "Erik Sommers",
+        "Stan Lee"
+      ],
+      "Actors": [
+        "Tom Holland",
+        "Zendaya",
+        "Benedict Cumberbatch"
+      ],
+      "Plot": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "Metascore": 71,
+      "imdbRating": 8.1
+    },
+    "tt0145487": {
+      "imdbID": "tt0145487",
+      "Title": "Spider-Man",
+      "Released": "2002-05-02",
+      "Runtime": 121,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "Directors": [
+        "Sam Raimi"
+      ],
+      "Writers": [
+        "Stan Lee",
+        "Steve Ditko",
+        "David Koepp"
+      ],
+      "Actors": [
+        "Tobey Maguire",
+        "Kirsten Dunst",
+        "Willem Dafoe"
+      ],
+      "Plot": "After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZWM0OWVmNTEtNWVkOS00MzgyLTkyMzgtMmE2ZTZiNjY4MmFiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 73,
+      "imdbRating": 7.4
+    },
+    "tt2250912": {
+      "imdbID": "tt2250912",
+      "Title": "Spider-Man: Homecoming",
+      "Released": "2017-07-06",
+      "Runtime": 133,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "Directors": [
+        "Jon Watts"
+      ],
+      "Writers": [
+        "Jonathan Goldstein",
+        "John Francis Daley",
+        "Jon Watts"
+      ],
+      "Actors": [
+        "Tom Holland",
+        "Michael Keaton",
+        "Robert Downey Jr."
+      ],
+      "Plot": "Peter Parker tries to stop Adrian 'The Vulture' Toomes from selling weapons made with advanced Chitauri technology while trying to balance his life as an ordinary high school student.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODY2MTAzOTQ4M15BMl5BanBnXkFtZTgwNzg5MTE0MjI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Metascore": 73,
+      "imdbRating": 7.4
+    },
+    "tt0316654": {
+      "imdbID": "tt0316654",
+      "Title": "Spider-Man 2",
+      "Released": "2004-06-29",
+      "Runtime": 127,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "Directors": [
+        "Sam Raimi"
+      ],
+      "Writers": [
+        "Stan Lee",
+        "Steve Ditko",
+        "Alfred Gough"
+      ],
+      "Actors": [
+        "Tobey Maguire",
+        "Kirsten Dunst",
+        "Alfred Molina"
+      ],
+      "Plot": "Peter Parker is beset with troubles in his failing personal life as he battles a former brilliant scientist named Otto Octavius.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGQ0YTQyYTgtNWI2YS00NTE2LWJmNDItNTFlMTUwNmFlZTM0XkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 83,
+      "imdbRating": 7.5
+    },
+    "tt4633694": {
+      "imdbID": "tt4633694",
+      "Title": "Spider-Man: Into the Spider-Verse",
+      "Released": "2018-12-13",
+      "Runtime": 117,
+      "Genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "Directors": [
+        "Bob Persichetti",
+        "Peter Ramsey",
+        "Rodney Rothman"
+      ],
+      "Writers": [
+        "Phil Lord",
+        "Rodney Rothman"
+      ],
+      "Actors": [
+        "Shameik Moore",
+        "Jake Johnson",
+        "Hailee Steinfeld"
+      ],
+      "Plot": "Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_SX300.jpg",
+      "Metascore": 87,
+      "imdbRating": 8.4
+    },
+    "tt0948470": {
+      "imdbID": "tt0948470",
+      "Title": "The Amazing Spider-Man",
+      "Released": "2012-07-02",
+      "Runtime": 136,
+      "Genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "Directors": [
+        "Marc Webb"
+      ],
+      "Writers": [
+        "James Vanderbilt",
+        "Alvin Sargent",
+        "Steve Kloves"
+      ],
+      "Actors": [
+        "Andrew Garfield",
+        "Emma Stone",
+        "Rhys Ifans"
+      ],
+      "Plot": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+      "Metascore": 66,
+      "imdbRating": 6.9
+    },
+    "tt0413300": {
+      "imdbID": "tt0413300",
+      "Title": "Spider-Man 3",
+      "Released": "2007-05-03",
+      "Runtime": 139,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "Directors": [
+        "Sam Raimi"
+      ],
+      "Writers": [
+        "Sam Raimi",
+        "Ivan Raimi",
+        "Alvin Sargent"
+      ],
+      "Actors": [
+        "Tobey Maguire",
+        "Kirsten Dunst",
+        "Topher Grace"
+      ],
+      "Plot": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODE2NzNhMDctYjUzMC00Y2M5LWI2Y2EtODJkZTFjN2Y5ODlmXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 59,
+      "imdbRating": 6.3
+    },
+    "tt6320628": {
+      "imdbID": "tt6320628",
+      "Title": "Spider-Man: Far from Home",
+      "Released": "2019-07-01",
+      "Runtime": 129,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "Directors": [
+        "Jon Watts"
+      ],
+      "Writers": [
+        "Chris McKenna",
+        "Erik Sommers",
+        "Stan Lee"
+      ],
+      "Actors": [
+        "Tom Holland",
+        "Samuel L. Jackson",
+        "Jake Gyllenhaal"
+      ],
+      "Plot": "Peter Parker, the beloved superhero Spider-Man, faces four destructive elemental monsters while on holiday in Europe. Soon, he receives help from Mysterio, a fellow hero with mysterious origins.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzNhNTE0NWQtN2E1Ny00NjcwLTg1YTctMGY1NmMwODJmY2NmXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+      "Metascore": 69,
+      "imdbRating": 7.3
+    },
+    "tt1872181": {
+      "imdbID": "tt1872181",
+      "Title": "The Amazing Spider-Man 2",
+      "Released": "2014-05-01",
+      "Runtime": 142,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "Directors": [
+        "Marc Webb"
+      ],
+      "Writers": [
+        "Alex Kurtzman",
+        "Roberto Orci",
+        "Jeff Pinkner"
+      ],
+      "Actors": [
+        "Andrew Garfield",
+        "Emma Stone",
+        "Jamie Foxx"
+      ],
+      "Plot": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTA5NDYxNTg0OV5BMl5BanBnXkFtZTgwODE5NzU1MTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Metascore": 53,
+      "imdbRating": 6.6
+    },
+    "tt9362722": {
+      "imdbID": "tt9362722",
+      "Title": "Spider-Man: Across the Spider-Verse",
+      "Released": "2023-06-01",
+      "Runtime": 140,
+      "Genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "Directors": [
+        "Joaquim Dos Santos",
+        "Kemp Powers",
+        "Justin K. Thompson"
+      ],
+      "Writers": [
+        "Phil Lord",
+        "Christopher Miller",
+        "Dave Callaham"
+      ],
+      "Actors": [
+        "Shameik Moore",
+        "Hailee Steinfeld",
+        "Brian Tyree Henry"
+      ],
+      "Plot": "Traveling across the multiverse, Miles Morales meets a new team of Spider-People, made up of heroes from different dimensions. But when the heroes clash over how to deal with a new threat, Miles finds himself at a crossroads.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNThiZjA3MjItZGY5Ni00ZmJhLWEwN2EtOTBlYTA4Y2E0M2ZmXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 86,
+      "imdbRating": 8.5
+    },
+    "tt0372784": {
+      "imdbID": "tt0372784",
+      "Title": "Batman Begins",
+      "Released": "2005-06-14",
+      "Runtime": 140,
+      "Genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "Directors": [
+        "Christopher Nolan"
+      ],
+      "Writers": [
+        "Bob Kane",
+        "David S. Goyer",
+        "Christopher Nolan"
+      ],
+      "Actors": [
+        "Christian Bale",
+        "Michael Caine",
+        "Ken Watanabe"
+      ],
+      "Plot": "After witnessing his parents' death, billionaire Bruce Wayne learns the art of fighting to confront injustice. When he returns to Gotham as Batman, he must stop a secret society that intends to destroy the city.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzA2NDQzZDEtNDU5Ni00YTlkLTg2OWEtYmQwM2Y1YTBjMjFjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Metascore": 70,
+      "imdbRating": 8.2
+    },
+    "tt1877830": {
+      "imdbID": "tt1877830",
+      "Title": "The Batman",
+      "Released": "2022-03-03",
+      "Runtime": 176,
+      "Genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "Directors": [
+        "Matt Reeves"
+      ],
+      "Writers": [
+        "Matt Reeves",
+        "Peter Craig",
+        "Bob Kane"
+      ],
+      "Actors": [
+        "Robert Pattinson",
+        "Zoë Kravitz",
+        "Jeffrey Wright"
+      ],
+      "Plot": "When a sadistic serial killer begins murdering key political figures in Gotham, the Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Metascore": 72,
+      "imdbRating": 7.8
+    },
+    "tt2975590": {
+      "imdbID": "tt2975590",
+      "Title": "Batman v Superman: Dawn of Justice",
+      "Released": "2016-03-24",
+      "Runtime": 151,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "Directors": [
+        "Zack Snyder"
+      ],
+      "Writers": [
+        "Chris Terrio",
+        "David S. Goyer",
+        "Bob Kane"
+      ],
+      "Actors": [
+        "Ben Affleck",
+        "Henry Cavill",
+        "Amy Adams"
+      ],
+      "Plot": "Batman is manipulated by Lex Luthor to fear Superman. Superman´s existence is meanwhile dividing the world and he is framed for murder during an international crisis. The heroes clash and force the neutral Wonder Woman to reemerge.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTJkYjdmYjYtOGMyNC00ZGU1LThkY2ItYTc1OTVlMmE2YWY1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Metascore": 44,
+      "imdbRating": 6.4
+    },
+    "tt0096895": {
+      "imdbID": "tt0096895",
+      "Title": "Batman",
+      "Released": "1989-06-22",
+      "Runtime": 126,
+      "Genres": [
+        "Action",
+        "Adventure"
+      ],
+      "Directors": [
+        "Tim Burton"
+      ],
+      "Writers": [
+        "Bob Kane",
+        "Sam Hamm",
+        "Warren Skaaren"
+      ],
+      "Actors": [
+        "Michael Keaton",
+        "Jack Nicholson",
+        "Kim Basinger"
+      ],
+      "Plot": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzZmZWViM2EtNzhlMi00NzBlLWE0MWEtZDFjMjk3YjIyNTBhXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 69,
+      "imdbRating": 7.5
+    },
+    "tt0103776": {
+      "imdbID": "tt0103776",
+      "Title": "Batman Returns",
+      "Released": "1992-06-18",
+      "Runtime": 126,
+      "Genres": [
+        "Action",
+        "Crime",
+        "Fantasy"
+      ],
+      "Directors": [
+        "Tim Burton"
+      ],
+      "Writers": [
+        "Bob Kane",
+        "Daniel Waters",
+        "Sam Hamm"
+      ],
+      "Actors": [
+        "Michael Keaton",
+        "Danny DeVito",
+        "Michelle Pfeiffer"
+      ],
+      "Plot": "While Batman deals with a deformed man calling himself the Penguin wreaking havoc across Gotham with the help of a cruel businessman, a female employee of the latter becomes the Catwoman with her own vendetta.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTliMDVkYTktZDdlMS00NTAwLWJhNzYtMWIwMDZjN2ViMGFiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 68,
+      "imdbRating": 7.1
+    },
+    "tt0118688": {
+      "imdbID": "tt0118688",
+      "Title": "Batman & Robin",
+      "Released": "1997-06-19",
+      "Runtime": 125,
+      "Genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "Directors": [
+        "Joel Schumacher"
+      ],
+      "Writers": [
+        "Bob Kane",
+        "Akiva Goldsman"
+      ],
+      "Actors": [
+        "Arnold Schwarzenegger",
+        "George Clooney",
+        "Chris O'Donnell"
+      ],
+      "Plot": "Batman and Robin try to keep their relationship together even as they must stop Mr. Freeze and Poison Ivy from freezing Gotham City.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzU3ZjE3M2UtM2E4Ni00MDI5LTkyZGUtOTFkMGIyYjNjZGU3XkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 29,
+      "imdbRating": 3.8
+    },
+    "tt0112462": {
+      "imdbID": "tt0112462",
+      "Title": "Batman Forever",
+      "Released": "1995-06-15",
+      "Runtime": 121,
+      "Genres": [
+        "Action",
+        "Adventure"
+      ],
+      "Directors": [
+        "Joel Schumacher"
+      ],
+      "Writers": [
+        "Bob Kane",
+        "Lee Batchler",
+        "Janet Scott Batchler"
+      ],
+      "Actors": [
+        "Val Kilmer",
+        "Tommy Lee Jones",
+        "Jim Carrey"
+      ],
+      "Plot": "Batman must battle former district attorney Harvey Dent, who is now Two-Face and Edward Nygma, The Riddler with help from an amorous psychologist and a young circus acrobat who becomes his sidekick, Robin.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTUyNjJhZWItMTZkNS00NDc4LTllNjUtYTg3NjczMzA5ZTViXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 54,
+      "imdbRating": 5.5
+    },
+    "tt4116284": {
+      "imdbID": "tt4116284",
+      "Title": "The Lego Batman Movie",
+      "Released": "2017-02-09",
+      "Runtime": 104,
+      "Genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "Directors": [
+        "Chris McKay"
+      ],
+      "Writers": [
+        "Seth Grahame-Smith",
+        "Chris McKenna",
+        "Erik Sommers"
+      ],
+      "Actors": [
+        "Will Arnett",
+        "Michael Cera",
+        "Rosario Dawson"
+      ],
+      "Plot": "A cooler-than-ever Bruce Wayne must deal with the usual suspects as they plan to rule Gotham City, while discovering that he has accidentally adopted a teenage orphan who wishes to become his sidekick.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTcyNTEyOTY0M15BMl5BanBnXkFtZTgwOTAyNzU3MDI@._V1_SX300.jpg",
+      "Metascore": 75,
+      "imdbRating": 7.3
+    },
+    "tt0103359": {
+      "imdbID": "tt0103359",
+      "Title": "Batman: The Animated Series",
+      "Released": "1992-09-04",
+      "Runtime": 23,
+      "Genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "Directors": [
+        "N/A"
+      ],
+      "Writers": [
+        "Bill Finger",
+        "Bob Kane",
+        "Eric Radomski"
+      ],
+      "Actors": [
+        "Kevin Conroy",
+        "Loren Lester",
+        "Efrem Zimbalist Jr."
+      ],
+      "Plot": "Billionaire Bruce Wayne secretly operates as Batman, a vigilante who battles a rouges' gallery of criminals and supervillains in Gotham City with the aid of various sidekicks and allies.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjgwZWUzMzUtYTFkNi00MzM0LWFkMWUtMDViMjMxNGIxNDUxXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 0,
+      "imdbRating": 9
+    },
+    "tt18689424": {
+      "imdbID": "tt18689424",
+      "Title": "Batman v Superman: Dawn of Justice (Ultimate Edition)",
+      "Released": "2016-03-22",
+      "Runtime": 182,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "Directors": [
+        "Zack Snyder"
+      ],
+      "Writers": [
+        "David S. Goyer",
+        "Chris Terrio"
+      ],
+      "Actors": [
+        "Amy Adams",
+        "Ben Affleck",
+        "Henry Cavill"
+      ],
+      "Plot": "Batman is manipulated by Lex Luthor to fear Superman. Superman´s existence is meanwhile dividing the world and he is framed for murder during an international crisis. The heroes clash and force the neutral Wonder Woman to reemerge.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTRlNWQwM2ItNjkyZC00MGI3LThkYjktZmE5N2FlMzcyNTIyXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_SX300.jpg",
+      "Metascore": 0,
+      "imdbRating": 7.2
+    },
+    "tt0108399": {
+      "imdbID": "tt0108399",
+      "Title": "True Romance",
+      "Released": "1993-09-09",
+      "Runtime": 119,
+      "Genres": [
+        "Crime",
+        "Drama",
+        "Romance"
+      ],
+      "Directors": [
+        "Tony Scott"
+      ],
+      "Writers": [
+        "Quentin Tarantino",
+        "Roger Avary"
+      ],
+      "Actors": [
+        "Christian Slater",
+        "Patricia Arquette",
+        "Dennis Hopper"
+      ],
+      "Plot": "In Detroit, a pop-culture enthusiast steals cocaine from his new wife's pimp and tries to sell it in Hollywood, prompting the mobsters who own the drugs to pursue the couple.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzQ5OGMwMDAtMzcyOS00YTA4LWEwM2MtOTA1MDZjZGEyYmI1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 59,
+      "imdbRating": 7.9
     }
   }
 }

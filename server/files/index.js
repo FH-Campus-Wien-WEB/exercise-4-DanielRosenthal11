@@ -14,6 +14,9 @@ const messages = {
 
 let currentSession = null;
 
+// Neue Variable, um aktive Filter zu speichern
+let activeGenres = new Set();
+
 function updateGenres() {
   const header = document.querySelector('nav>h2');
   const listElement = document.querySelector("#filter");
@@ -32,17 +35,24 @@ function updateGenres() {
     })
     .then(genres => {
       header.style.display = 'block';
-      new ElementBuilder("li").append(new ButtonBuilder("All").onclick(() => loadMovies()))
-        .appendTo(listElement);
+      
+      // "All" Button
+      const allBtn = new ButtonBuilder("All").onclick(() => toggleGenre("All"));
+      new ElementBuilder("li").append(allBtn).appendTo(listElement);
+      if (activeGenres.size === 0) allBtn.element.classList.add('active'); // Standardmäßig aktiv
 
+      // Spezifische Genre Buttons
       for (const genre of genres) {
-        new ElementBuilder("li").append(new ButtonBuilder(genre).onclick(() => loadMovies(genre)))
-          .appendTo(listElement);
+        const btn = new ButtonBuilder(genre).onclick(() => toggleGenre(genre));
+        if (activeGenres.has(genre)) {
+          btn.element.classList.add('active');
+        }
+        new ElementBuilder("li").append(btn).appendTo(listElement);
       }
 
-      const firstButton = listElement.querySelector("button");
-      if (firstButton) {
-        firstButton.click();
+      // Initiales Laden, falls nichts ausgewählt ist -> zeige Alle
+      if (activeGenres.size === 0 && document.querySelector("main").childElementCount === 0) {
+        toggleGenre("All");
       }
     })
     .catch(error => {
@@ -51,17 +61,37 @@ function updateGenres() {
     });
 }
 
-function removeMovies() {
-  const mainElement = document.querySelector("main");
-  while (mainElement.childElementCount > 0) {
-    mainElement.firstChild.remove();
+function toggleGenre(genre) {
+  if (genre === "All") {
+    activeGenres.clear(); // Alle spezifischen Filter löschen
+  } else {
+    if (activeGenres.has(genre)) {
+      activeGenres.delete(genre); // Klick auf aktiven Filter -> deaktivieren
+    } else {
+      activeGenres.add(genre); // Klick auf inaktiven Filter -> aktivieren
+    }
   }
+
+  // UI aktualisieren (Klassen setzen)
+  const buttons = document.querySelectorAll("#filter button");
+  buttons.forEach(btn => {
+    if (btn.textContent === "All") {
+      btn.classList.toggle('active', activeGenres.size === 0);
+    } else {
+      btn.classList.toggle('active', activeGenres.has(btn.textContent));
+    }
+  });
+
+  // Filme mit den ausgewählten Genres laden
+  loadMovies(Array.from(activeGenres));
 }
 
-function loadMovies(genre) {
+function loadMovies(genresArray = []) {
   const url = new URL("/movies", location.href);
-  if (genre) {
-    url.searchParams.set("genre", genre);
+  
+  // Wenn spezifische Genres ausgewählt sind, hänge sie kommasepariert an die URL an
+  if (genresArray.length > 0) {
+    url.searchParams.set("genres", genresArray.join(','));
   }
 
   fetch(url)
@@ -81,6 +111,13 @@ function loadMovies(genre) {
       const mainElement = document.querySelector("main");
       mainElement.append(`${messages.dataLoadError} ${error.message}`);
     });
+}
+
+function removeMovies() {
+  const mainElement = document.querySelector("main");
+  while (mainElement.childElementCount > 0) {
+    mainElement.firstChild.remove();
+  }
 }
 
 function addMovie(imdbID) {
