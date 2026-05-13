@@ -90,7 +90,50 @@ app.put("/movies/:imdbID", requireLogin, function (req, res) {
   const exists = movieModel.getUserMovie(username, imdbID) !== undefined;
 
   if (!exists) {
-    // Task 2.3 placeholder
+    const url = `http://www.omdbapi.com/?i=${imdbID}&apikey=${config.omdbApiKey}`;
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), config.omdbTimeoutMs);
+
+    fetch(url, { signal: controller.signal })
+      .then(apiRes => {
+        clearTimeout(timeoutId);
+        if (!apiRes.ok) return res.sendStatus(apiRes.status);
+        return apiRes.json();
+      })
+      .then(data => {
+        if (data.Response === 'False') return res.sendStatus(404);
+
+        // Datumsformat in YYYY-MM-DD konvertieren
+        let released = data.Released;
+        if (released && released !== 'N/A') {
+          const d = new Date(released);
+          if (!isNaN(d)) released = d.toISOString().split('T')[0];
+        }
+
+        const newMovie = {
+          imdbID: data.imdbID,
+          Title: data.Title,
+          Released: released,
+          Runtime: parseInt(data.Runtime) || 0,
+          Genres: data.Genre ? data.Genre.split(',').map(s => s.trim()) : [],
+          Directors: data.Director ? data.Director.split(',').map(s => s.trim()) : [],
+          Writers: data.Writer ? data.Writer.split(',').map(s => s.trim()) : [],
+          Actors: data.Actors ? data.Actors.split(',').map(s => s.trim()) : [],
+          Plot: data.Plot,
+          Poster: data.Poster,
+          Metascore: parseInt(data.Metascore) || 0,
+          imdbRating: parseFloat(data.imdbRating) || 0
+        };
+
+        movieModel.setUserMovie(username, imdbID, newMovie);
+        res.sendStatus(201);
+      })
+      .catch((err) => {
+        clearTimeout(timeoutId);
+        if (err.name === 'AbortError') return res.sendStatus(504);
+        console.error('OMDb API error:', err);
+        res.sendStatus(500);
+      });
   } else {
     movieModel.setUserMovie(username, imdbID, req.body);
     res.sendStatus(200);
@@ -115,7 +158,54 @@ app.get("/genres", requireLogin, function (req, res) {
 });
 
 app.get("/search", requireLogin, function (req, res) {
-  // Task 2.1 placeholder
+  const username = req.session.user.username;
+  const query = req.query.query;
+  if (!query) {
+    return res.sendStatus(400);
+  }
+
+  const url = `http://www.omdbapi.com/?s=${encodeURIComponent(query)}&apikey=${config.omdbApiKey}`;
+  
+  //TEST START
+  console.log("=== DEBUG SEARCH ===");
+  console.log("API Key geladen:", config.omdbApiKey ? "JA (" + config.omdbApiKey + ")" : "NEIN (Leer)");
+  //TEST ENDE
+
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), config.omdbTimeoutMs);
+
+  fetch(url, { signal: controller.signal })
+    .then(apiRes => {
+      clearTimeout(timeoutId);
+      if (!apiRes.ok) return res.sendStatus(apiRes.status);
+      
+      return apiRes.text().then(data => {
+        let response;
+        try {
+          response = JSON.parse(data);
+        } catch (parseError) {
+          return res.sendStatus(500);
+        }
+
+        if (response.Response === 'True') {
+          const results = response.Search
+            .filter(movie => !movieModel.hasUserMovie(username, movie.imdbID))
+            .map(movie => ({
+              Title: movie.Title,
+              imdbID: movie.imdbID,
+              Year: isNaN(movie.Year) ? null : parseInt(movie.Year)
+            }));
+          res.send(results);
+        } else {
+          res.send([]);
+        }
+      });
+    })
+    .catch((err) => {
+      clearTimeout(timeoutId);
+      if (err.name === 'AbortError') return res.sendStatus(504);
+      res.sendStatus(500);
+    });
 });
 
 app.listen(config.port);

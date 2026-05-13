@@ -167,5 +167,33 @@
       "Metascore": 88,
       "imdbRating": 8.5
     }
+  },
+  "Daniel": {
+    "tt0118688": {
+      "imdbID": "tt0118688",
+      "Title": "Batman & Robin",
+      "Released": "1997-06-19",
+      "Runtime": 125,
+      "Genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "Directors": [
+        "Joel Schumacher"
+      ],
+      "Writers": [
+        "Bob Kane",
+        "Akiva Goldsman"
+      ],
+      "Actors": [
+        "Arnold Schwarzenegger",
+        "George Clooney",
+        "Chris O'Donnell"
+      ],
+      "Plot": "Batman and Robin try to keep their relationship together even as they must stop Mr. Freeze and Poison Ivy from freezing Gotham City.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzU3ZjE3M2UtM2E4Ni00MDI5LTkyZGUtOTFkMGIyYjNjZGU3XkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 29,
+      "imdbRating": 3.8
+    }
   }
 }

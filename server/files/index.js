@@ -86,12 +86,14 @@ function loadMovies(genre) {
 function addMovie(imdbID) {
   fetch(`/movies/${imdbID}`, { method: 'PUT' })
     .then(response => {
-      if (response.status === 201) {
-        // Task 2.2 placeholder
+      if (response.status === 201 || response.status === 200) {
+        const searchItem = document.getElementById(`search-${imdbID}`);
+        if (searchItem) {
+          searchItem.remove();
+        }
+    
         loadMovies();
         updateGenres();
-      } else if (response.status === 200) {
-        alert(messages.movieAlreadyInCollection);
       } else {
         throw new Error(`HTTP ${response.status}`);
       }
@@ -130,7 +132,17 @@ function searchMovies(query) {
     .then(results => {
       const resultsDiv = document.getElementById("searchResults");
       resultsDiv.innerHTML = '';
-      // Task 2.2 placeholder
+
+      if (!results || results.length === 0) {
+        new ElementBuilder("p").text(messages.noResultsFound).appendTo(resultsDiv);
+        return;
+      }
+
+      results.forEach(movie => {
+        const row = new ElementBuilder("div").id(`search-${movie.imdbID}`).appendTo(resultsDiv);
+        new ElementBuilder("span").text(`${movie.Title} (${movie.Year})`).appendTo(row);
+        new ButtonBuilder("Add").onclick(() => addMovie(movie.imdbID)).appendTo(row);
+      });
     })
     .catch(error => {
       console.error('Search failed:', error);
